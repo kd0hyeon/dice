@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void)
 {
 	
-	int *arr,n,a;
+	int n,a;
 	scanf("%d %d",&n,&a);
-	arr = (int *)malloc(sizeof(int)*n);
+	int arr[n];
 	for(int i=0;i<n;i++)
 	{
 		scanf(" %d",&arr[i]);
